@@ -257,10 +257,11 @@ if ~gif && 0
 end
 
 % MODEL
-if ~gif && 0
+if ~gif && 1
     figure
     %h = imagesc(x,x,-min(im,0.1));
-    imagesc(-min(im,0.1));
+    %imagesc(-min(im,0.1));
+    imagesc(-min(im,10));
     xlabel("Relative RA ('')")
     ylabel("Relative Dec ('')")
     colormap gray
